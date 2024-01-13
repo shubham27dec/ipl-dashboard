@@ -1,0 +1,19 @@
+.MatchDetailCard{
+	
+	display: grid;
+	grid-template-columns: 3fr 1fr ;
+	padding : 10px;
+	
+	.other-team,.match-date,.match-venue,.toss-result,.match-result{
+		margin-bottom: 15px;
+	}
+	
+	.first-innings,.second-innings,.player-of-match,.umpires{
+		margin-bottom: 7px;
+	}
+	
+	.match-details{
+		margin-top: 10px;
+	}
+}
+
